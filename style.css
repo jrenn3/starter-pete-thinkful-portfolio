@@ -18,7 +18,10 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
@@ -37,9 +40,22 @@ article div {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex section {
+  padding: 5px;
+  flex: 1;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.left-align-text {
+  text-align: left;
 }
 
 /* Links */
@@ -57,8 +73,7 @@ nav a {
 
 /* Images */
 img {
-  width: 100%;
-  max-width: 200px;
+  max-width: 190px;
   height: auto;
 }
 
@@ -76,3 +91,4 @@ footer {
 hr {
   border: 1px solid black;
 }
+
